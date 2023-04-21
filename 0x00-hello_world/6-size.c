@@ -8,11 +8,11 @@
 
 int main(void)
 {
-    char charType;
-    int integerType;
-    long int longintegerType;
-    long long int longlongintegerType;
-    float floatType;
+	char charType;
+	int integerType;
+	long int longintegerType;
+	long long int longlongintegerType;
+	float floatType;
 
     /*Sizeof operator is used to evaluate the size of a variable*/
  printf("Size of a char: %ld byte(s) \n", sizeof(charType));
