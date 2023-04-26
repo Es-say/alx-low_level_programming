@@ -1,16 +1,16 @@
 #include "main.h"
-void print_alphabet(void);
+
 /**
  * print_alphabet - prints the alphabet from a-z
  *
  * Return: Always return 0
  */
  
-int main (void)
+void print_alphabet(void)
 {
-	char x;
+	char letters;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (letters = 'a'; letters <= 'z'; letters++)
         	_putchar(x);
 	
 	_putchar("\n");
