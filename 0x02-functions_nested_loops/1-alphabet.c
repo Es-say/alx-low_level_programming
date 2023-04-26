@@ -1,5 +1,5 @@
 #include "main.h"
-void print_alphabet(void)
+void print_alphabet(void);
 /**
  * print_alphabet - prints the alphabet from a-z
  *
