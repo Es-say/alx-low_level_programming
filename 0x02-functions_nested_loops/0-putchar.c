@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /*
- * main - prints putchar
+ * main - Entry point
+ * Description: prints putchar
  * Return: 0
  */
 
 int main(void)
 {
-	printf("-putchar,\n");
+	printf("-putchar\n");
 	return (0);
 }
