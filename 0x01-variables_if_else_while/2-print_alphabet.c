@@ -6,13 +6,13 @@
  * Return: always 0
  */
 
-int main (void)
+int main(void)
 {
 	int n = 97; /* stores the ASCII value of the alphabet a */
 
-	while (n <= 122) /* while the ASCII value of the alphabet is less than or equal to z */
+	while (n <= 122) /* less than or equal to the ASCII value of z */
 	{
-		putchar(n); 
+		putchar(n);
 		n++; /* increases the value in the variable n */
 	}
 	putchar('\n');
