@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - Entry Point
  * Description -  prints all single digit numbers of base 10 starting from 0
  * Return: always 0
  */
 
-int main(void) 
+int main(void)
 {
 	int n;
 
@@ -14,6 +14,6 @@ int main(void)
 	{
 		printf("%d", n);
 	}
-	printf("\n");	
-	return(0);
+	printf("\n");
+	return (0);
 }
